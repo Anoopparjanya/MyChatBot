@@ -45,7 +45,7 @@ Run the following command to clone the source code from github
 
 ```bash
 
-git clone https://github.com/Anoopparjanya/Mychatbot Mychatbot
+git clone https://github.com/Anoopparjanya/MyChatBot Mychatbot
 
 ```
 
