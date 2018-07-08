@@ -1,17 +1,21 @@
-#Mychatbot
+# Mychatbot
+
 Chat bot for ABC company in place of technical support agents using Keras-tensorflow
 
-#keras-chatbot-tensorflow
+# keras-chatbot-tensorflow
+
 Simple keras chat bot using seq2seq model with Flask serving web
 
 The chat bot is built based on seq2seq models, and can infer based on either character-level or word-level.
 
 The seq2seq model is implemented using LSTM encoder-decoder on Keras.
 
-Notes
+# Notes
+
 GloVe word encoding of the chatbot gives the best performance.
 
-Usage
+# Usage
+
 Environment setup:
 
 1.Install Anaconda 4.5.4 
@@ -80,7 +84,7 @@ python -m nltk.downloader all
 
 The chat bot models are train using a data set and are available in the"chatbot_train/models" directory. During runtime, the flask app will load these trained models to perform the chat-reply
 
-Training (Optional)
+# Training (Optional)
 
 As the trained models are already included in the "chatbot_train/models" folder in the project, the bot training is not required. However, if you like to tune the parameters of the seq2seq and retrain the models, you can use the following command to run the training:
 
@@ -105,8 +109,6 @@ cd..
 
 ```
 
-
-
 ```bash
 
 cd chatbot_web
@@ -115,7 +117,7 @@ python Anoop_word_seq2seq_glove_predict.py
 
 ```
 
-Running Web Api Server
+# Running Web Api Server
 Goto chatbot_web directory and run the following command:
 
 ```bash
